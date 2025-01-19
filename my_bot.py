@@ -85,7 +85,7 @@ async def send_affirmations(context: CallbackContext):
     current_time = datetime.now(TIMEZONE).time()
     for affirmation_id, data in list(affirmations.items()):
         if current_time >= data["time"]:
-            await context.bot.send_message(chat_id=CHAT_ID, text=data["     affirmation"])
+            await context.bot.send_message(chat_id=CHAT_ID, text=data["affirmation"])
             del affirmations[affirmation_id]  # Remove the affirmation after sending
 
 # Adding handlers for commands
