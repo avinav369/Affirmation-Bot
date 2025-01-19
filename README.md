@@ -124,8 +124,6 @@ The code was written with the assistance of ChatGPT and required nearly 30 itera
 **Timing Behavior:**
 Please note that the affirmation appears exactly one minute later than the defined time. This behavior is intentional based on how the bot’s job queue scheduling is set up, and it should not be considered an error.
 
-Here's the refined disclaimer or note you can add to the README:
-
 ---
 
 ### **Disclaimer on Receiving Affirmations on Smartwatch**  
