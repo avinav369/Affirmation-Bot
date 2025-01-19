@@ -111,7 +111,7 @@ The author ran this bot on an **AWS EC2 Ubuntu instance (Free Tier)**. AWS Free 
 ### **Usage**
 
 - **Start the Bot**: Use the `/start` command to initialize the bot.  
-- **Add an Affirmation**: Use the `/add <HH:MM> <message>` command to schedule an affirmation (e.g., `/add 08:00 You are amazing!`).  
+- **Add an Affirmation**: Use the `/add <HH:MM> <message>` command to schedule an affirmation (e.g., `/add 08:00 You are amazing!`). The time is to be entered in **24 hour format.**
 - **List Affirmations**: Use the `/list` command to see all scheduled affirmations.  
 - **Remove an Affirmation**: Use the `/remove <ID>` command to delete an affirmation by its ID.  
 
@@ -123,3 +123,5 @@ The code was written with the assistance of ChatGPT and required nearly 30 itera
 
 **Timing Behavior:**
 Please note that the affirmation appears exactly one minute later than the defined time. This behavior is intentional based on how the bot’s job queue scheduling is set up, and it should not be considered an error.
+
+
