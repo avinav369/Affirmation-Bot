@@ -124,4 +124,16 @@ The code was written with the assistance of ChatGPT and required nearly 30 itera
 **Timing Behavior:**
 Please note that the affirmation appears exactly one minute later than the defined time. This behavior is intentional based on how the bot’s job queue scheduling is set up, and it should not be considered an error.
 
+Here's the refined disclaimer or note you can add to the README:
+
+---
+
+### **Disclaimer on Receiving Affirmations on Smartwatch**  
+To receive the affirmation notifications on your smartwatch, please ensure the following:  
+1. **Active Internet and Bluetooth**: Keep your smartphone's internet connection and Bluetooth enabled.
+2. **Smartwatch Pairing**: Ensure that your smartwatch is properly paired with your smartphone.
+3. **Telegram Notifications**: To ensure that only affirmation notifications are received, I recommend muting all other Telegram groups and chats, leaving only the bot unmuted. This strategy helps in avoiding interruptions and ensures that you get the affirmations as intended.
+
+---
+
 
